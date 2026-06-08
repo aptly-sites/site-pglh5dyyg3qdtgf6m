@@ -2,7 +2,7 @@
 export const site = {
   companyName: "DevTest - Aptly01 (RV)",
   tagline: "Kick Ass Property Management",
-  description: "",
+  description: "We handle that shit",
   phone: "",
   email: "",
   address: "",
@@ -22,7 +22,7 @@ export const site = {
   ],
   hero: {
     headline: 'Professional Property Management',
-    subheadline: "We handle everything so you can enjoy your investment.",
+    subheadline: "We handle that shit",
     cta: 'Get a Free Consultation',
     ctaHref: '#contact',
   },
@@ -42,7 +42,7 @@ export const site = {
   ],
   about: {
     headline: 'Locally Owned. Owner Focused.',
-    body: "We built the company we wished existed — one that treats every property like our own.",
+    body: "We handle that shit",
     points: [
       'Licensed with full fiduciary responsibility',
       'Dedicated owner portal with real-time reporting',
@@ -61,7 +61,7 @@ export const site = {
   },
   seo: {
     title: "DevTest - Aptly01 (RV) | Professional Property Management",
-    description: "Professional property management services.",
+    description: "We handle that shit",
     ogImage: '/images/og.jpg',
   },
   social: { facebook: '', instagram: '', linkedin: '' },
