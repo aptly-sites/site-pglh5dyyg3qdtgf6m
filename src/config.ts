@@ -3,7 +3,7 @@ export const site = {
   companyName: "DevTest - Aptly01 (RV)",
   logoPath: "http://localhost:3000/cdn/storage/AptlyFiles/5mazdvBrW5ELLGKmx/original/5mazdvBrW5ELLGKmx.jpeg",
   listingsWidgetUrl: "http://localhost:3030/search/pGLh5DyYg3QDTGf6M",
-  tagline: "Kick Button PM",
+  tagline: "Kick Butt PM",
   description: "We handle everything!",
   phone: "4155551212",
   email: "",
