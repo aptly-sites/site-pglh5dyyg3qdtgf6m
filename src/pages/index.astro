@@ -8,8 +8,11 @@ import { site } from '../config';
   <!-- NAV -->
   <nav class="nav" id="nav">
     <div class="container" style="display:flex;align-items:center;justify-content:space-between;height:64px;">
-      <a href="/" style="font-size:18px;font-weight:800;color:var(--color-ink);text-decoration:none;">
-        {site.companyName}
+      <a href="/" style="text-decoration:none;display:flex;align-items:center;gap:10px;">
+        {site.logoPath
+          ? <img src={site.logoPath} alt={site.companyName} style="height:40px;width:auto;object-fit:contain;" />
+          : <span style="font-size:18px;font-weight:800;color:var(--color-ink);">{site.companyName}</span>
+        }
       </a>
       <div style="display:flex;align-items:center;gap:32px;" class="nav-links">
         {site.nav.map(link => (
