@@ -5,7 +5,7 @@ export const site = {
   listingsWidgetUrl: "http://localhost:3030/search/pGLh5DyYg3QDTGf6M",
   tagline: "Kick Ass PM",
   description: "We handle everything!",
-  phone: "",
+  phone: "4155551212",
   email: "",
   address: "",
   colors: {
