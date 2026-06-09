@@ -25,7 +25,7 @@ export const site = {
   ],
   hero: {
     headline: 'Professional Property Management',
-    subheadline: "We handle that shit",
+    subheadline: "We handle everything!",
     cta: 'Get a Free Consultation',
     ctaHref: '#contact',
   },
@@ -45,7 +45,7 @@ export const site = {
   ],
   about: {
     headline: 'Locally Owned. Owner Focused.',
-    body: "We handle that shit",
+    body: "We handle everything!",
     points: [
       'Licensed with full fiduciary responsibility',
       'Dedicated owner portal with real-time reporting',
@@ -64,7 +64,7 @@ export const site = {
   },
   seo: {
     title: "DevTest - Aptly01 (RV) | Professional Property Management",
-    description: "We handle that shit",
+    description: "We handle everything!",
     ogImage: '/images/og.jpg',
   },
   social: { facebook: '', instagram: '', linkedin: '' },
