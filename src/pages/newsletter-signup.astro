@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = "Newsletter Signup";
+const embedUrl = "https://aptly-form-msq9tygb9dp4zjk7d.aptly.workers.dev";
+---
+
+<BaseLayout title={pageTitle}>
+  <iframe
+    src={embedUrl}
+    title={pageTitle}
+    style="width: 100%; height: 100vh; border: none; display: block;"
+    loading="lazy"
+  ></iframe>
+</BaseLayout>
