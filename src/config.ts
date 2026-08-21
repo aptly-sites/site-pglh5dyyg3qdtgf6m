@@ -2,6 +2,9 @@
 export const site = {
   companyName: "DevTest - Aptly01 (RV)",
   logoPath: "http://localhost:3000/cdn/storage/AptlyFiles/GLALcqGfB8mzmHTCE/original/GLALcqGfB8mzmHTCE.jpg",
+  // Used at build time to fetch this company's public listings feed and generate
+  // a real static page per rental (src/pages/rentals/[id].astro).
+  companyId: "pGLh5DyYg3QDTGf6M",
   listingsWidgetUrl: "https://portal.getaptly.com/search/pGLh5DyYg3QDTGf6M",
   tagline: "Real Kewl Properties",
   description: "We handle everything!",
