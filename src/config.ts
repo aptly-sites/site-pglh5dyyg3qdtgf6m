@@ -2,7 +2,7 @@
 export const site = {
   companyName: "DevTest - Aptly01 (RV)",
   logoPath: "http://localhost:3000/cdn/storage/AptlyFiles/GLALcqGfB8mzmHTCE/original/GLALcqGfB8mzmHTCE.jpg",
-  listingsWidgetUrl: "",
+  listingsWidgetUrl: "https://portal.getaptly.com/search/pGLh5DyYg3QDTGf6M",
   tagline: "Real Kewl Properties",
   description: "We handle everything!",
   phone: "4155551212",
@@ -18,7 +18,7 @@ export const site = {
   },
   nav: [
     { label: 'Services', href: '#services' },
-    
+    { label: 'Rental Search', href: '/rentals' },
     { label: 'About', href: '#about' },
     { label: 'Testimonials', href: '#testimonials' },
     { label: 'Contact', href: '#contact' },
