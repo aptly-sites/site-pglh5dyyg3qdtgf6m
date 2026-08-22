@@ -8,6 +8,20 @@ All content lives in one file: **`src/config.ts`**
 
 Edit company name, colors, phone, services, testimonials, etc. — then push to GitHub and it deploys automatically.
 
+## Rental listings
+
+`src/pages/rentals/index.astro` and `src/pages/rentals/[id].astro` fetch the company's
+public Aptly listings feed (`https://app.getaptly.com/api/portal/listings/:companyId`)
+**at build time** and generate a real, static HTML page per rental — not a client-side
+widget — so search engines can index each listing's address, price, photos, and
+structured data (`RealEstateListing` JSON-LD) directly. Set `companyId` in
+`src/config.ts` to the company's Aptly ID for these pages to show listings.
+
+Because the pages are static, a redeploy (push to `main`, or re-run the deploy) is
+needed to pick up newly listed or removed rentals — they don't update live.
+
+Shared helpers for fetching/formatting listings live in `src/lib/listings.ts`.
+
 ## Local development
 
 ```bash
