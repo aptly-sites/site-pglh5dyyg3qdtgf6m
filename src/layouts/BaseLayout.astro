@@ -41,7 +41,7 @@ const canonicalURL = Astro.site
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
 
@@ -53,6 +53,8 @@ const canonicalURL = Astro.site
       colorSurface: site.colors.surface,
       colorInk: site.colors.ink,
       colorMuted: site.colors.muted,
+      colorAccent: site.colors.accent,
+      colorAccentInk: site.colors.accentInk,
     }}>
       :root {
         --color-primary: var(--colorPrimary);
@@ -61,8 +63,13 @@ const canonicalURL = Astro.site
         --color-surface: var(--colorSurface);
         --color-ink: var(--colorInk);
         --color-muted: var(--colorMuted);
+        --color-accent: var(--colorAccent);
+        --color-accent-ink: var(--colorAccentInk);
       }
     </style>
+
+    <!-- Per-page extra head tags (e.g. Leaflet's stylesheet on pages with a map) -->
+    <slot name="head" />
   </head>
   <body>
     <slot />

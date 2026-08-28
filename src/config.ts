@@ -9,8 +9,8 @@ export const site = {
   tagline: "Real Kewl Properties",
   description: "We handle everything!",
   phone: "4155551212",
-  email: "",
-  address: "",
+  email: "adam@getaptly.com",
+  address: "2167 East Francisco Blvd, San Rafael, CA, 94901-5509",
   colors: {
     primary: "#2f6df6",
     primaryDark: '#1a56db',
@@ -18,10 +18,13 @@ export const site = {
     surface: '#ffffff',
     ink: '#161b26',
     muted: '#7a8395',
+    accent: "#b7a064",
+    accentInk: '#142337',
   },
   nav: [
     { label: 'Services', href: '#services' },
     { label: 'Rental Search', href: '/rentals' },
+    
     { label: 'About', href: '#about' },
     { label: 'Testimonials', href: '#testimonials' },
     { label: 'Contact', href: '#contact' },
@@ -72,4 +75,10 @@ export const site = {
     ogImage: '/images/og.jpg',
   },
   social: { facebook: '', instagram: '', linkedin: '' },
+  // Populated only by the Designer AI chat editing config.ts directly (see ai.js) — there's no
+  // UI field for this. Like services/testimonials/hero copy, a full deploy/reset regenerates
+  // this from aptlySite, which never actually stores it, so AI-added areas don't survive a
+  // full redeploy today — a known, already-accepted limitation for AI-authored structured
+  // content in general, not new to this field.
+  areas: [],
 };
