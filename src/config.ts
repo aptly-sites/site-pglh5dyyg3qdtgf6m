@@ -31,13 +31,13 @@ export const site = {
     { label: "Newsletter Signup", href: "/newsletter-signup" },
   ],
   hero: {
-    headline: 'Professional Property Management',
+    headline: 'Mofessional Property Management',
     subheadline: "We handle everything!",
     cta: 'Get a Free Consultation',
     ctaHref: '#contact',
   },
   services: [
-    { icon: '🏠', title: 'Leasing & Marketing', description: 'Professional photography, syndicated listings, and thorough tenant screening.' },
+    { icon: '🏠', title: 'Leasing & Marketing', description: 'Mofessional photography, syndicated listings, and thorough tenant screening.' },
     { icon: '🔧', title: 'Maintenance & Repairs', description: '24/7 emergency response and a trusted vendor network.' },
     { icon: '💰', title: 'Rent Collection', description: 'Automated collection, owner disbursements, and detailed monthly statements.' },
     { icon: '📊', title: 'Financial Reporting', description: 'Real-time owner portal with income/expense reports and full transaction history.' },
@@ -70,7 +70,7 @@ export const site = {
     subheadline: 'Get a free rental analysis and management proposal within 24 hours.',
   },
   seo: {
-    title: "DevTest - Aptly01 (RV) | Professional Property Management",
+    title: "DevTest - Aptly01 (RV) | Mofessional Property Management",
     description: "We handle everything!",
     ogImage: '/images/og.jpg',
   },
