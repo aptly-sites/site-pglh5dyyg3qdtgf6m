@@ -46,7 +46,7 @@ export const site = {
   ],
   stats: [
     { value: '900+', label: 'Units Managed' },
-    { value: '10+', label: 'Years in Business' },
+    { value: '15+', label: 'Years in Business' },
     { value: '98%', label: 'Occupancy Rate' },
     { value: '4.9★', label: 'Owner Rating' },
   ],
