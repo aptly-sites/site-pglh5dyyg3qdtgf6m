@@ -33,7 +33,7 @@ export const site = {
   hero: {
     headline: 'Mofessional Management',
     subheadline: "We Handle It All",
-    cta: 'Get a Free Consultation',
+    cta: 'Free Consult!',
     ctaHref: '#contact',
   },
   services: [
