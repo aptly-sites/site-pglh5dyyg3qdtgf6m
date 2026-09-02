@@ -7,7 +7,7 @@ export const site = {
   companyId: "pGLh5DyYg3QDTGf6M",
   listingsWidgetUrl: "https://portal.getaptly.com/search/pGLh5DyYg3QDTGf6M",
   tagline: "Real Kewl Properties",
-  description: "We handle everything!",
+  description: "We Handle It All",
   phone: "4155551212",
   email: "adam@getaptly.com",
   address: "2167 East Francisco Blvd, San Rafael, CA, 94901-5509",
@@ -32,7 +32,7 @@ export const site = {
   ],
   hero: {
     headline: 'Mofessional Management',
-    subheadline: "We handle everything!",
+    subheadline: "We Handle It All",
     cta: 'Get a Free Consultation',
     ctaHref: '#contact',
   },
@@ -52,7 +52,7 @@ export const site = {
   ],
   about: {
     headline: 'Locally Owned. Owner Focused.',
-    body: "We handle everything!",
+    body: "We Handle It All",
     points: [
       'Licensed with full fiduciary responsibility',
       'Dedicated owner portal with real-time reporting',
@@ -71,7 +71,7 @@ export const site = {
   },
   seo: {
     title: "DevTest - Aptly01 (RV) | Mofessional Management",
-    description: "We handle everything!",
+    description: "We Handle It All",
     ogImage: '/images/og.jpg',
   },
   social: { facebook: '', instagram: '', linkedin: '' },
