@@ -31,7 +31,7 @@ export const site = {
     { label: "Newsletter Signup", href: "/newsletter-signup" },
   ],
   hero: {
-    headline: 'Mofessional Property Management',
+    headline: 'Mofessional Management',
     subheadline: "We handle everything!",
     cta: 'Get a Free Consultation',
     ctaHref: '#contact',
@@ -70,7 +70,7 @@ export const site = {
     subheadline: 'Get a free rental analysis and management proposal within 24 hours.',
   },
   seo: {
-    title: "DevTest - Aptly01 (RV) | Mofessional Property Management",
+    title: "DevTest - Aptly01 (RV) | Mofessional Management",
     description: "We handle everything!",
     ogImage: '/images/og.jpg',
   },
