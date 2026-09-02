@@ -31,7 +31,7 @@ export const site = {
     { label: "Newsletter Signup", href: "/newsletter-signup" },
   ],
   hero: {
-    headline: 'Mofessional Management',
+    headline: 'Professional Management',
     subheadline: "We Handle It All",
     cta: 'Free Consult!',
     ctaHref: '#contact',
@@ -70,7 +70,7 @@ export const site = {
     subheadline: 'Get a free rental analysis and management proposal within 24 hours.',
   },
   seo: {
-    title: "DevTest - Aptly01 (RV) | Mofessional Management",
+    title: "DevTest - Aptly01 (RV) | Professional Management",
     description: "We Handle It All",
     ogImage: '/images/og.jpg',
   },
