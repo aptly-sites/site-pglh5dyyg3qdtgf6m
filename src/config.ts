@@ -31,13 +31,13 @@ export const site = {
     { label: "Newsletter Signup", href: "/newsletter-signup" },
   ],
   hero: {
-    headline: 'Professional Management',
+    headline: 'Super Pro Management',
     subheadline: "We Handle It All",
     cta: 'Free Consult!',
     ctaHref: '#contact',
   },
   services: [
-    { icon: '🏠', title: 'Leasing & Marketing', description: 'Professional photography, syndicated listings, and thorough tenant screening.' },
+    { icon: '🏠', title: 'Leasing & Marketing', description: 'Super Pro photography, syndicated listings, and thorough tenant screening.' },
     { icon: '🔧', title: 'Maintenance & Repairs', description: '24/7 emergency response and a trusted vendor network.' },
     { icon: '💰', title: 'Rent Collection', description: 'Automated collection, owner disbursements, and detailed monthly statements.' },
     { icon: '📊', title: 'Financial Reporting', description: 'Real-time owner portal with income/expense reports and full transaction history.' },
@@ -70,7 +70,7 @@ export const site = {
     subheadline: 'Get a free rental analysis and management proposal within 24 hours.',
   },
   seo: {
-    title: "DevTest - Aptly01 (RV) | Professional Management",
+    title: "DevTest - Aptly01 (RV) | Super Pro Management",
     description: "We Handle It All",
     ogImage: '/images/og.jpg',
   },
