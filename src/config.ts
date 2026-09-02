@@ -45,7 +45,7 @@ export const site = {
     { icon: '🤝', title: 'Tenant Relations', description: 'Responsive communication and move-in/move-out inspections.' },
   ],
   stats: [
-    { value: '500+', label: 'Properties Managed' },
+    { value: '900+', label: 'Units Managed' },
     { value: '10+', label: 'Years in Business' },
     { value: '98%', label: 'Occupancy Rate' },
     { value: '4.9★', label: 'Owner Rating' },
