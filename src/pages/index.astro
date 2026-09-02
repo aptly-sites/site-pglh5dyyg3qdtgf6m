@@ -4,6 +4,8 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 import { site } from '../config';
+
+const formattedPhone = site.phone.replace(/(\d{3})(\d{3})(\d{4})/, '($1) $2-$3');
 ---
 
 <BaseLayout>
@@ -20,7 +22,7 @@ import { site } from '../config';
           {site.hero.cta}
         </a>
         <a href={`tel:${site.phone}`} class="btn-ghost" style="font-size:16px;padding:14px 28px;">
-          {site.phone}
+          {formattedPhone}
         </a>
       </div>
     </div>
@@ -136,7 +138,7 @@ import { site } from '../config';
         </form>
       </div>
       <div style="display:flex;gap:32px;justify-content:center;margin-top:32px;flex-wrap:wrap;">
-        <a href={`tel:${site.phone}`} style="color:#9ca3b0;font-size:14px;text-decoration:none;">📞 {site.phone}</a>
+        <a href={`tel:${site.phone}`} style="color:#9ca3b0;font-size:14px;text-decoration:none;">📞 {formattedPhone}</a>
         <a href={`mailto:${site.email}`} style="color:#9ca3b0;font-size:14px;text-decoration:none;">✉️ {site.email}</a>
         <span style="color:#9ca3b0;font-size:14px;">📍 {site.address}</span>
       </div>
